@@ -1,0 +1,14 @@
+function [TX_flow, TX_pkt_num] = find_smallest_VFT(real_time)
+%FIND_SMALLEST_VFT Summary of this function goes here
+%   Detailed explanation goes here
+global NUM_FLOWS;
+global VFT;
+global FLOW;
+for flow = 1:NUM_FLOWS
+    for pk = FLOW(flow).Queue
+        if VFT(j)
+end
+
+
+end
+
